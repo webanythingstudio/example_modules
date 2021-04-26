@@ -151,21 +151,21 @@ module.exports.module_main = class ModuleMain extends ModuleMain__Base
 		
 
 		// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-		// %%% Move Page To Time.Gov %%%%%%%%%%%%%%%%%%%%%%%%%
+		// %%% Move Page To Destination %%%%%%%%%%%%%%%%%%%%%%
 		// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-		// go to time.gov 
+		// go to destination
 		await new_page.goto(params.url_to_download_from);
 
 
 		// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-		// %%% Run Some Code In The Context of Time.Gov %%%%%%
+		// %%% Run Some Code In The Context of Page  %%%%%%%%%
 		// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 		// page injectables (jquery, utilities, etc)
 		var injectables = await module_ref.getInjectables(module_ref.injectable_set);	
 
-		// get the time in alaska
+		// gather matching links
 		await new_page.evaluate(injectables);
 		var matching_links = await new_page.evaluate(async function(file_extension_to_download)
 		{
