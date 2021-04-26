@@ -1,0 +1,11 @@
+{
+ "name": "DownloadAllFilesMatching",
+ "title": "Download All Files Matching Extension",
+ "category": "None",
+ "enabled": true,
+ "ui": true,
+ "description": "This module will visit a page you specify, find all matching file links, and attempt to download them.",
+ "author": "WebANYTHINGStudio",
+ "email": "",
+ "license": "WebANYTHINGStudio LICENSE"
+}
