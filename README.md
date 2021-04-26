@@ -1,1 +1,1 @@
-# example_modules
+# WebANYTHINGStudio: Example Modules
