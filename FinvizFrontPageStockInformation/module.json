@@ -1,0 +1,11 @@
+{
+ "name": "FinvizFrontPageStockInformation",
+ "title": "Finviz Front Page Stock Information",
+ "category": "None",
+ "enabled": true,
+ "ui": true,
+ "description": "This will simply visit finviz.com and get stock information shown on the front page.  This example module demonstrates table parsing and consolidation.",
+ "author": "WebANYTHINGStudio",
+ "email": "",
+ "license": "WebANYTHINGStudio License"
+}
