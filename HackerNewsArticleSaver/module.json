@@ -1,0 +1,11 @@
+{
+ "name": "HackerNewsArticleSaver",
+ "title": "Hacker News Article Saver",
+ "category": "None",
+ "enabled": true,
+ "ui": true,
+ "description": "This example application will simply visit \"Hacker News\" and gather articles and save them as json to a directory of your choosing.",
+ "author": "WebANYTHINGStudio",
+ "email": "",
+ "license": "WebANYTHINGStudio License"
+}
