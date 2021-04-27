@@ -1,0 +1,11 @@
+{
+ "name": "DuckDuckGoSearch",
+ "title": "Duck Duck Go Search",
+ "category": "None",
+ "enabled": true,
+ "ui": true,
+ "description": "Will simply visit Duck Duck Go! and run a search, gathering all results and saving them.",
+ "author": "WebANYTHINGStudio",
+ "email": "",
+ "license": "WebANYTHINGStudio License"
+}
